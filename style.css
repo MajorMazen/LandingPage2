@@ -1,0 +1,100 @@
+/* moving-letters start */
+.ml1 {
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 {
+  top: 0;
+}
+.ml1 .line2 {
+  bottom: 0;
+}
+/* moving-letters end */
+
+/* added to change bootstrap size settings*/
+.slider-image {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  height: 500px;
+}
+
+.text {
+  color: rgb(90, 146, 137); /*rgb(90, 146, 137);*/
+  text-shadow: white 0px 0px 40px, white 0px 0px 40px, white 0px 0px 40px,
+    white 0px 0px 40px, white 0px 0px 40px, white 0px 0px 40px;
+  /*text-shadow: black 0px 0px 30px;*/
+  -webkit-font-smoothing: antialiased;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  /*padding: 16px 12px;*/
+  position: absolute;
+  bottom: 35%;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  /*position: fixed;*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+}
+
+.mycontainer {
+  background-color: grey;
+  position: relative;
+  padding: 20px;
+}
+
+.ver_adjustment {
+  position: absolute;
+  top: 50%; /*can also use padding or display:flex*/
+  /*width: 100%;*/
+}
+
+.opaque {
+  opacity: 0.5;
+}
+
+.opaque:hover {
+  opacity: 1;
+}
+
+.hrz_adjustment {
+  display: flex;
+  justify-content: space-between;
+  /*object-position: center;*/
+  /*margin: 50px;*/
+}
+
+.mycarousel {
+  position: absolute !important;
+}
